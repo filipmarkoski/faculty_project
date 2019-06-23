@@ -1,0 +1,1245 @@
+Microsoft Windows [Version 10.0.17134.829]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+(venv) D:\code\py\university>pip -V
+pip 10.0.1 from D:\code\py\university\venv\lib\site-packages\pip-10.0.1-py3.6.egg\pip (python 3.6)
+
+(venv) D:\code\py\university>easy_install -U pip
+Searching for pip
+Reading https://pypi.org/simple/pip/
+Downloading https://files.pythonhosted.org/packages/5c/e0/be401c003291b56efc55aeba6a80ab790d3d4cece2778288d65323009420/pip-19.1.1-py2.py3-none-any.whl#sha256=993134f0475471b91452ca029d4390dc8f298ac63a712814f101cd1b6db46676
+Best match: pip 19.1.1
+Processing pip-19.1.1-py2.py3-none-any.whl
+Installing pip-19.1.1-py2.py3-none-any.whl to d:\code\py\university\venv\lib\site-packages
+Removing pip 10.0.1 from easy-install.pth file
+Adding pip 19.1.1 to easy-install.pth file
+Installing pip-script.py script to D:\code\py\university\venv\Scripts
+Installing pip.exe script to D:\code\py\university\venv\Scripts
+Installing pip.exe.manifest script to D:\code\py\university\venv\Scripts
+Installing pip3-script.py script to D:\code\py\university\venv\Scripts
+Installing pip3.exe script to D:\code\py\university\venv\Scripts
+Installing pip3.exe.manifest script to D:\code\py\university\venv\Scripts
+Installing pip3.7-script.py script to D:\code\py\university\venv\Scripts
+Installing pip3.7.exe script to D:\code\py\university\venv\Scripts
+Installing pip3.7.exe.manifest script to D:\code\py\university\venv\Scripts
+
+Installed d:\code\py\university\venv\lib\site-packages\pip-19.1.1-py3.6.egg
+Processing dependencies for pip
+Finished processing dependencies for pip
+
+(venv) D:\code\py\university>pip install pytest
+Collecting pytest
+  Using cached https://files.pythonhosted.org/packages/b3/eb/df264c0b1ff4aaf263375dc09aabd9093364f66060be9b26f3a2c166d558/pytes
+t-4.6.3-py2.py3-none-any.whl
+Collecting wcwidth (from pytest)
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwid
+th-0.1.7-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomi
+cwrites-1.3.0-py2.py3-none-any.whl
+Collecting colorama; sys_platform == "win32" (from pytest)
+  Using cached https://files.pythonhosted.org/packages/4f/a6/728666f39bfff1719fc94c481890b2106837da9318031f71a8424b662e12/color
+ama-0.4.1-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.12 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/06/ee/de89e0582276e3551df3110088bf20844de2b0e7df2748406876cc78e021/plugg
+y-0.12.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0; python_version > "2.7" (from pytest)
+  Using cached https://files.pythonhosted.org/packages/b3/73/64fb5922b745fc1daee8a2880d907d2a70d9c7bb71eea86fcb9445daab5e/more_
+itertools-7.0.0-py3-none-any.whl
+Collecting py>=1.5.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.
+8.0-py2.py3-none-any.whl
+Collecting importlib-metadata>=0.12 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/bd/23/dce4879ec58acf3959580bfe769926ed8198727250c5e395e6785c764a02/impor
+tlib_metadata-0.18-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1
+.12.0-py2.py3-none-any.whl
+Collecting packaging (from pytest)
+  Using cached https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packa
+ging-19.0-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs
+-19.1.0-py2.py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.12->pytest)
+  Using cached https://files.pythonhosted.org/packages/a0/0f/9bf71d438d2e9d5fd0e4569ea4d1a2b6f5a524c234c6d221b494298bb4d1/zipp-
+0.5.1-py2.py3-none-any.whl
+Collecting pyparsing>=2.0.2 (from packaging->pytest)
+  Using cached https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pypar
+sing-2.4.0-py2.py3-none-any.whl
+Installing collected packages: wcwidth, atomicwrites, colorama, zipp, importlib-metadata, pluggy, more-itertools, py, six, pyparsing, packaging, attrs, pytest
+Successfully installed atomicwrites-1.3.0 attrs-19.1.0 colorama-0.4.1 importlib-metadata-0.18 more-itertools-7.0.0 packaging-19.0 pluggy-0.12.0 py-1.8.0 pyparsing-2.4.0 p
+ytest-4.6.3 six-1.12.0 wcwidth-0.1.7 zipp-0.5.1
+
+(venv) D:\code\py\university>pip install .
+Processing d:\code\py\university
+Installing collected packages: faculty
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting tests/test_course.py _________________________________________________________________
+venv\lib\site-packages\_pytest\python.py:507: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+venv\lib\site-packages\py\_path\local.py:701: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:971: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:955: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:656: in _load_unlocked
+    ???
+<frozen importlib._bootstrap>:626: in _load_backward_compatible
+    ???
+venv\lib\site-packages\_pytest\assertion\rewrite.py:304: in load_module
+    exec(co, mod.__dict__)
+tests\test_course.py:2: in <module>
+    from faculty.student import Student
+E     File "d:\code\py\university\venv\lib\site-packages\faculty\student.py", line 11
+E       range ValueError('Student index must contain only digits')
+E                      ^
+E   SyntaxError: invalid syntax
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.25 seconds ========================================================================
+
+(venv) D:\code\py\university>pytest --collect-only
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting tests/test_course.py _________________________________________________________________
+venv\lib\site-packages\_pytest\python.py:507: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+venv\lib\site-packages\py\_path\local.py:701: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:971: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:955: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:656: in _load_unlocked
+    ???
+<frozen importlib._bootstrap>:626: in _load_backward_compatible
+    ???
+venv\lib\site-packages\_pytest\assertion\rewrite.py:304: in load_module
+    exec(co, mod.__dict__)
+tests\test_course.py:2: in <module>
+    from faculty.student import Student
+E     File "d:\code\py\university\venv\lib\site-packages\faculty\student.py", line 11
+E       range ValueError('Student index must contain only digits')
+E                      ^
+E   SyntaxError: invalid syntax
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.19 seconds ========================================================================
+
+(venv) D:\code\py\university>pytest --collect-only
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting tests/test_course.py _________________________________________________________________
+venv\lib\site-packages\_pytest\python.py:507: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+venv\lib\site-packages\py\_path\local.py:701: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:971: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:955: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:656: in _load_unlocked
+    ???
+<frozen importlib._bootstrap>:626: in _load_backward_compatible
+    ???
+venv\lib\site-packages\_pytest\assertion\rewrite.py:304: in load_module
+    exec(co, mod.__dict__)
+tests\test_course.py:2: in <module>
+    from faculty.student import Student
+E     File "d:\code\py\university\venv\lib\site-packages\faculty\student.py", line 11
+E       range ValueError('Student index must contain only digits')
+E                      ^
+E   SyntaxError: invalid syntax
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.20 seconds ========================================================================
+
+(venv) D:\code\py\university>pip install .
+Processing d:\code\py\university
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university>pytest --collect-only
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 6 items
+<Package D:\code\py\university\tests>
+  <Module test_course.py>
+    <Class TestStudent>
+        <Function test_create_student[161528-Filip-Markoski-Gender.MALE-21]>
+        <Function test_create_student[61528-Filip-Markoski-Gender.MALE-21]>
+        <Function test_create_student[16l528-Filip-Markoski-Gender.MALE-21]>
+        <Function test_create_student[161528-Fi1ip-Markoski-Gender.MALE-21]>
+        <Function test_create_student[161528-Filip-Markosk1-Gender.MALE-21]>
+        <Function test_create_student[161528-Filip-Markoski-Gender.MALE-0]>
+
+===================================================================== no tests ran in 0.05 seconds ======================================================================
+
+(venv) D:\code\py\university>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 6 items
+
+tests\test_course.py ......                                                                                                                                        [100%]
+
+======================================================================= 6 passed in 0.05 seconds ========================================================================
+
+(venv) D:\code\py\university>pytest TestStudent
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 0 items
+
+===================================================================== no tests ran in 0.01 seconds ======================================================================
+ERROR: file not found: TestStudent
+
+
+(venv) D:\code\py\university>pytest tests/test_course.py::TestStudent
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university
+collected 6 items
+
+tests\test_course.py ......                                                                                                                                        [100%]
+
+======================================================================= 6 passed in 0.09 seconds ========================================================================
+
+writing pip-egg-info\faculty.egg-info\PKG-INFO
+    writing dependency_links to pip-egg-info\faculty.egg-info\dependency_links.txt
+    writing top-level names to pip-egg-info\faculty.egg-info\top_level.txt
+    writing manifest file 'pip-egg-info\faculty.egg-info\SOURCES.txt'
+    error: package directory 'faculty' does not exist
+    ----------------------------------------
+ERROR: Command "python setup.py egg_info" failed with error code 1 in C:\Users\FILIPM~1\AppData\Local\Temp\pip-req-build-4ncqt4s7\
+
+(venv) D:\code\py\university>pip install ./faculty_project
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university>doskey /history
+pip install ./faculty_project
+doskey /history
+
+(venv) D:\code\py\university>doskey /history >history.txt
+
+(venv) D:\code\py\university>cd faculty_project
+
+(venv) D:\code\py\university\faculty_project>ls
+__pycache__  console_session.txt  history.txt  pytest.ini  setup.py  src  tests
+
+(venv) D:\code\py\university\faculty_project>pytest -m course
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+______________________________________________________________ ERROR collecting tests/unit/test_course.py _______________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+tests\unit\test_course.py:4: in <module>
+    from faculty.exceptions import StudentAlreadyInCourse, StudentNotFoundInCourse
+..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.17 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+______________________________________________________________ ERROR collecting tests/unit/test_course.py _______________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+tests\unit\test_course.py:4: in <module>
+    from faculty.exceptions import StudentAlreadyInCourse, StudentNotFoundInCourse
+..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.12 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project>cd tests
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting unit/test_course.py __________________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+unit\test_course.py:4: in <module>
+    from faculty.exceptions import StudentAlreadyInCourse, StudentNotFoundInCourse
+..\..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.12 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install .
+ERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pip install .
+ERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting unit/test_course.py __________________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+unit\test_course.py:4: in <module>
+    from faculty.exceptions import StudentAlreadyInCourse, StudentNotFoundInCourse
+..\..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.12 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting unit/test_course.py __________________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+unit\test_course.py:4: in <module>
+    from faculty import *
+..\..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.16 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting unit/test_course.py __________________________________________________________________
+ImportError while importing test module 'D:\code\py\university\faculty_project\tests\unit\test_course.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+unit\test_course.py:4: in <module>
+    from faculty.exceptions import StudentAlreadyInCourse, StudentNotFoundInCourse
+..\..\venv\lib\site-packages\faculty\__init__.py:12: in <module>
+    from .student import Student
+..\..\venv\lib\site-packages\faculty\student.py:2: in <module>
+    from src.faculty.constants import Gender
+E   ModuleNotFoundError: No module named 'src'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+======================================================================== 1 error in 0.15 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 12 items
+
+unit\test_course.py F...........                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+______________________________________________________________________ test_add_student_to_course _______________________________________________________________________
+
+faculty_fixture = [<faculty.course.Course object at 0x03CDB530>]
+
+    @pytest.mark.course
+    def test_add_student_to_course(faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+>       course.remove_student(filip)
+
+unit\test_course.py:49:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03CDB530>, student = <faculty.student.Student object at 0x03CDBA90>
+
+    def remove_student(self, student: Student):
+        if student not in self.students:
+>           raise StudentNotFoundInCourse()
+E           faculty.exceptions.StudentNotFoundInCourse
+
+..\..\venv\lib\site-packages\faculty\course.py:24: StudentNotFoundInCourse
+================================================================== 1 failed, 11 passed in 0.09 seconds ==================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 13 items
+
+unit\test_course.py .F...........                                                                                                                                  [100%]
+
+=============================================================================== FAILURES ================================================================================
+____________________________________________________________________ test_remove_student_from_course ____________________________________________________________________
+
+faculty_fixture = [<faculty.course.Course object at 0x03DCC4D0>]
+
+    @pytest.mark.course
+    def test_remove_student_from_course(faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+>       course.remove_student(filip)
+
+unit\test_course.py:49:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03DCC4D0>, student = <faculty.student.Student object at 0x03DCC0D0>
+
+    def remove_student(self, student: Student):
+        if student not in self.students:
+>           raise StudentNotFoundInCourse()
+E           faculty.exceptions.StudentNotFoundInCourse
+
+..\..\venv\lib\site-packages\faculty\course.py:24: StudentNotFoundInCourse
+================================================================== 1 failed, 12 passed in 0.14 seconds ==================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 13 items
+
+unit\test_course.py .............                                                                                                                                  [100%]
+
+======================================================================= 13 passed in 0.11 seconds =======================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 14 items
+
+unit\test_course.py ..............                                                                                                                                 [100%]
+
+======================================================================= 14 passed in 0.12 seconds =======================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pytest TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items
+
+===================================================================== no tests ran in 0.01 seconds ======================================================================
+ERROR: file not found: TestCourse
+
+
+(venv) D:\code\py\university\faculty_project\tests>pytest unit/test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 4 items
+
+unit\test_course.py ...F                                                                                                                                           [100%]
+
+=============================================================================== FAILURES ================================================================================
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03C8C4F0>, faculty_fixture = [<faculty.course.Course object at 0x03C8C710>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+E       AttributeError: 'Course' object has no attribute 'count_students_greater_than_age'
+
+unit\test_course.py:108: AttributeError
+================================================================== 1 failed, 3 passed in 0.11 seconds ===================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pytest unit/test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 4 items
+
+unit\test_course.py ...F                                                                                                                                           [100%]
+
+=============================================================================== FAILURES ================================================================================
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03A32270>, faculty_fixture = [<faculty.course.Course object at 0x03A57210>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+E       AttributeError: 'Course' object has no attribute 'count_students_greater_than_age'
+
+unit\test_course.py:108: AttributeError
+================================================================== 1 failed, 3 passed in 0.06 seconds ===================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pip install ../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests>pytest
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 14 items
+
+unit\test_course.py .........FFF.F                                                                                                                                 [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03B70D70>, faculty_fixture = [<faculty.course.Course object at 0x03B70210>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+unit\test_course.py:91: AssertionError
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03B64F30>, faculty_fixture = [<faculty.course.Course object at 0x03B643D0>]
+
+    def test_add_student_to_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentAlreadyInCourse):
+>           course.add_student(filip)
+E           Failed: DID NOT RAISE <class 'faculty.exceptions.StudentAlreadyInCourse'>
+
+unit\test_course.py:97: Failed
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03B54450>, faculty_fixture = [<faculty.course.Course object at 0x03B54470>]
+
+    def test_remove_student_from_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentNotFoundInCourse):
+>           course.remove_student(filip)
+
+unit\test_course.py:103:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03B54470>, student = <faculty.student.Student object at 0x03B54570>
+
+    def remove_student(self, student: Student) -> None:
+        if self.contains_student(student):
+            raise StudentNotFoundInCourse()
+>       self.students.remove(student)
+E       ValueError: list.remove(x): x not in list
+
+..\..\venv\lib\site-packages\faculty\course.py:25: ValueError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03B70030>, faculty_fixture = [<faculty.course.Course object at 0x03B703F0>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+
+unit\test_course.py:114:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03B703F0>, age = 20
+
+    def count_students_greater_than_age(self, age: int) -> int:
+        if not (0 < age < 130):
+            raise ValueError('Age must be between 0 and 130')
+
+        count: int = 0
+        for student in self.students:
+>           if student.gender > age:
+E           TypeError: '>' not supported between instances of 'Gender' and 'int'
+
+..\..\venv\lib\site-packages\faculty\course.py:46: TypeError
+================================================================== 4 failed, 10 passed in 0.22 seconds ==================================================================
+
+(venv) D:\code\py\university\faculty_project\tests>pytest -q
+.........FFF.F                                                                                                                                                     [100%]
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x043F74F0>, faculty_fixture = [<faculty.course.Course object at 0x043F7690>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+unit\test_course.py:91: AssertionError
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x04446230>, faculty_fixture = [<faculty.course.Course object at 0x04446370>]
+
+    def test_add_student_to_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentAlreadyInCourse):
+>           course.add_student(filip)
+E           Failed: DID NOT RAISE <class 'faculty.exceptions.StudentAlreadyInCourse'>
+
+unit\test_course.py:97: Failed
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x0434E570>, faculty_fixture = [<faculty.course.Course object at 0x0434E5D0>]
+
+    def test_remove_student_from_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentNotFoundInCourse):
+>           course.remove_student(filip)
+
+unit\test_course.py:103:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x0434E5D0>, student = <faculty.student.Student object at 0x0434E5B0>
+
+    def remove_student(self, student: Student) -> None:
+        if self.contains_student(student):
+            raise StudentNotFoundInCourse()
+>       self.students.remove(student)
+E       ValueError: list.remove(x): x not in list
+
+..\..\venv\lib\site-packages\faculty\course.py:25: ValueError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x0433D290>, faculty_fixture = [<faculty.course.Course object at 0x043F7E10>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+
+unit\test_course.py:114:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x043F7E10>, age = 20
+
+    def count_students_greater_than_age(self, age: int) -> int:
+        if not (0 < age < 130):
+            raise ValueError('Age must be between 0 and 130')
+
+        count: int = 0
+        for student in self.students:
+>           if student.gender > age:
+E           TypeError: '>' not supported between instances of 'Gender' and 'int'
+
+..\..\venv\lib\site-packages\faculty\course.py:46: TypeError
+4 failed, 10 passed in 0.13 seconds
+
+(venv) D:\code\py\university\faculty_project\tests>ls
+__pycache__  pytest.ini  unit
+
+(venv) D:\code\py\university\faculty_project\tests>cd unit
+
+(venv) D:\code\py\university\faculty_project\tests\unit>ls
+__init__.py  __pycache__  test_course.py
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py FFF.F                                                                                                                                               [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03ED7410>, faculty_fixture = [<faculty.course.Course object at 0x03ED75D0>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+test_course.py:91: AssertionError
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03ED7970>, faculty_fixture = [<faculty.course.Course object at 0x03ED7F10>]
+
+    def test_add_student_to_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentAlreadyInCourse):
+>           course.add_student(filip)
+E           Failed: DID NOT RAISE <class 'faculty.exceptions.StudentAlreadyInCourse'>
+
+test_course.py:97: Failed
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03E3F250>, faculty_fixture = [<faculty.course.Course object at 0x03E3F050>]
+
+    def test_remove_student_from_course(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        with pytest.raises(StudentNotFoundInCourse):
+>           course.remove_student(filip)
+
+test_course.py:103:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03E3F050>, student = <faculty.student.Student object at 0x03E26A70>
+
+    def remove_student(self, student: Student) -> None:
+        if self.contains_student(student):
+            raise StudentNotFoundInCourse()
+>       self.students.remove(student)
+E       ValueError: list.remove(x): x not in list
+
+..\..\..\venv\lib\site-packages\faculty\course.py:25: ValueError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03F12230>, faculty_fixture = [<faculty.course.Course object at 0x03F123B0>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+
+test_course.py:114:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03F123B0>, age = 20
+
+    def count_students_greater_than_age(self, age: int) -> int:
+        if not (0 < age < 130):
+            raise ValueError('Age must be between 0 and 130')
+
+        count: int = 0
+        for student in self.students:
+>           if student.gender > age:
+E           TypeError: '>' not supported between instances of 'Gender' and 'int'
+
+..\..\..\venv\lib\site-packages\faculty\course.py:46: TypeError
+================================================================== 4 failed, 1 passed in 0.10 seconds ===================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items / 1 errors
+
+================================================================================ ERRORS =================================================================================
+_________________________________________________________________ ERROR collecting unit/test_course.py __________________________________________________________________
+test_course.py:84: in <module>
+    class TestCourse(faculty_fixture):
+E   TypeError: function() argument 1 must be code, not str
+======================================================================== 1 error in 0.11 seconds ========================================================================
+ERROR: not found: D:\code\py\university\faculty_project\tests\unit\test_course.py::TestCourse
+(no name 'D:\\code\\py\\university\\faculty_project\\tests\\unit\\test_course.py::TestCourse' in any of [<Module test_course.py>])
+
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 0 items
+
+=========================================================================== warnings summary ============================================================================
+test_course.py:68
+  D:\code\py\university\faculty_project\tests\unit\test_course.py:68: PytestCollectionWarning: cannot collect test class 'TestCourse' because it has a __init__ constructo
+r (from: unit/test_course.py)
+    class TestCourse():
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+====================================================================== 1 warnings in 0.08 seconds =======================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py FFFFF                                                                                                                                               [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03FB6CF0>
+
+    def test_contains_student(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:88: TypeError
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03F7F390>
+
+    def test_add_student_to_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:95: TypeError
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03FB1B90>
+
+    def test_remove_student_from_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:101: TypeError
+_______________________________________________________________ TestCourse.test_count_students_by_gender ________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03F9ABD0>
+
+    def test_count_students_by_gender(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:107: TypeError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03FB7E90>
+
+    def test_count_students_greater_than_age(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:113: TypeError
+======================================================================= 5 failed in 0.16 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py FFFFF                                                                                                                                               [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03D3C0B0>
+
+    def test_contains_student(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:89: TypeError
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03D31D50>
+
+    def test_add_student_to_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:96: TypeError
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03D1A5B0>
+
+    def test_remove_student_from_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:102: TypeError
+_______________________________________________________________ TestCourse.test_count_students_by_gender ________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03D00A10>
+
+    def test_count_students_by_gender(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:108: TypeError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03D39C10>
+
+    def test_count_students_greater_than_age(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:114: TypeError
+======================================================================= 5 failed in 0.14 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py F                                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03FF93F0>
+
+    def test_contains_student(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:89: TypeError
+======================================================================= 1 failed in 0.06 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py F                                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x045ED150>
+
+    def test_contains_student(self):
+>       course: Course = self.faculty_fixture[0]
+E       AttributeError: 'TestCourse' object has no attribute 'faculty_fixture'
+
+test_course.py:89: AttributeError
+======================================================================= 1 failed in 0.10 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py F                                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03B3C150>, faculty_fixture = [<faculty.course.Course object at 0x03B3C5D0>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+test_course.py:93: AssertionError
+======================================================================= 1 failed in 0.11 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pip install ../../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py F                                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03C69450>, faculty_fixture = [<faculty.course.Course object at 0x03C69090>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+test_course.py:93: AssertionError
+======================================================================= 1 failed in 0.06 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pip install ../../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py F                                                                                                                                                   [100%]
+
+=============================================================================== FAILURES ================================================================================
+___________________________________________________________________ TestCourse.test_contains_student ____________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03AB93F0>, faculty_fixture = [<faculty.course.Course object at 0x03AB9510>]
+
+    def test_contains_student(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        filip: Student = Student('161528', 'Filip', 'Markoski', Gender.MALE, 21)
+        expected = True
+        received = course.contains_student(filip)
+>       assert expected == received
+E       assert True == False
+
+test_course.py:93: AssertionError
+======================================================================= 1 failed in 0.06 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pip install ../../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse::test_contains_student
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 1 item
+
+test_course.py .                                                                                                                                                   [100%]
+
+======================================================================= 1 passed in 0.03 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py .FFFF                                                                                                                                               [100%]
+
+=============================================================================== FAILURES ================================================================================
+_________________________________________________________________ TestCourse.test_add_student_to_course _________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x038D0B10>
+
+    def test_add_student_to_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:96: TypeError
+______________________________________________________________ TestCourse.test_remove_student_from_course _______________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x038F8330>
+
+    def test_remove_student_from_course(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:102: TypeError
+_______________________________________________________________ TestCourse.test_count_students_by_gender ________________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03931250>
+
+    def test_count_students_by_gender(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:108: TypeError
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03880ED0>
+
+    def test_count_students_greater_than_age(self):
+>       course: Course = faculty_fixture[0]
+E       TypeError: 'function' object is not subscriptable
+
+test_course.py:114: TypeError
+================================================================== 4 failed, 1 passed in 0.08 seconds ===================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py ....F                                                                                                                                               [100%]
+
+=============================================================================== FAILURES ================================================================================
+____________________________________________________________ TestCourse.test_count_students_greater_than_age ____________________________________________________________
+
+self = <unit.test_course.TestCourse object at 0x03FF6550>, faculty_fixture = [<faculty.course.Course object at 0x03FF6EF0>]
+
+    def test_count_students_greater_than_age(self, faculty_fixture):
+        course: Course = faculty_fixture[0]
+        expected = 1
+>       received = course.count_students_greater_than_age(20)
+
+test_course.py:116:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <faculty.course.Course object at 0x03FF6EF0>, age = 20
+
+    def count_students_greater_than_age(self, age: int) -> int:
+        if not (0 < age < 130):
+            raise ValueError('Age must be between 0 and 130')
+
+        count: int = 0
+        for student in self.students:
+>           if student.gender > age:
+E           TypeError: '>' not supported between instances of 'Gender' and 'int'
+
+..\..\..\venv\lib\site-packages\faculty\course.py:46: TypeError
+================================================================== 1 failed, 4 passed in 0.11 seconds ===================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pip install ../../.
+Processing d:\code\py\university\faculty_project
+Installing collected packages: faculty
+  Found existing installation: faculty 0.1.0
+    Uninstalling faculty-0.1.0:
+      Successfully uninstalled faculty-0.1.0
+  Running setup.py install for faculty ... done
+Successfully installed faculty-0.1.0
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 5 items
+
+test_course.py .....                                                                                                                                               [100%]
+
+======================================================================= 5 passed in 0.03 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>pytest test_course.py::TestCourse
+========================================================================== test session starts ==========================================================================
+platform win32 -- Python 3.6.4, pytest-4.6.3, py-1.8.0, pluggy-0.12.0
+rootdir: D:\code\py\university\faculty_project\tests, inifile: pytest.ini
+collected 7 items
+
+test_course.py .......                                                                                                                                             [100%]
+
+======================================================================= 7 passed in 0.11 seconds ========================================================================
+
+(venv) D:\code\py\university\faculty_project\tests\unit>cd ../..
+
+(venv) D:\code\py\university\faculty_project>doskey /history > history.txt

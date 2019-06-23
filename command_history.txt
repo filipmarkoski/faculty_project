@@ -1,0 +1,41 @@
+pip install ./faculty_project
+doskey /history
+doskey /history >history.txt
+cd faculty_project
+ls
+pytest -m course
+pytest
+cd tests
+pytest
+pip install .
+pip install ../.
+pip install .
+pytest
+pip install ../.
+pytest
+pip install ../.
+pytest
+pip install ../.
+pytest TestCourse
+pytest unit/test_course.py::TestCourse
+pip install ../.
+pytest unit/test_course.py::TestCourse
+pip install ../.
+pytest
+pytest -q
+ls
+cd unit
+ls
+pytest test_course.py::TestCourse
+pytest test_course.py::TestCourse::test_contains_student
+pip install ../../.
+pytest test_course.py::TestCourse::test_contains_student
+pip install ../../.
+pytest test_course.py::TestCourse::test_contains_student
+pip install ../../.
+pytest test_course.py::TestCourse::test_contains_student
+pytest test_course.py::TestCourse
+pip install ../../.
+pytest test_course.py::TestCourse
+cd ../..
+doskey /history > history.txt
