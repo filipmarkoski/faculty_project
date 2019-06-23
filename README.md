@@ -2,6 +2,8 @@
 ### A project for the course Software Quality and Testing at FCSE, Skopje
 #### Made by:  161528, Филип Маркоски
 
+![pytest_execution](images/pytest_execution.png)
+
 After making the virtual environemt (python 3.6) I ran the following commands
 
 ```pip freeze
