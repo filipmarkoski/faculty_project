@@ -1,6 +1,6 @@
 pip install ./faculty_project
 doskey /history
-doskey /history >history.txt
+doskey /history > history.txt
 cd faculty_project
 ls
 pytest -m course
@@ -39,3 +39,22 @@ pip install ../../.
 pytest test_course.py::TestCourse
 cd ../..
 doskey /history > history.txt
+pip freeze
+pip -V
+easy_install -U pip
+pip -V
+pip freeze
+pip install -r requirements.txt
+ls
+pip install 
+pip install .
+cd tests
+cd unit
+pytest
+cd ..
+git init .
+git remote add origin https://github.com/filipmarkoski45/faculty_project.git
+git status
+git branch
+git push -u origin master
+doskey /history >> command_history.txt
